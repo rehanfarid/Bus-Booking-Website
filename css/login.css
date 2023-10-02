@@ -1,0 +1,115 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: sans-serif; */
+}
+
+html,body{
+    display: grid;
+    /* height: 100%; */
+    place-items: center;
+    /* background: rgb(150, 199, 255); */
+    background-image: url(/image/forest-gcb5a6d5b5_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 80px;
+
+}
+
+.wrapper{
+    width: 400px;
+    background: rgb(255, 255, 255);
+    border-radius: 6px;
+    border: 2px solid blue;
+    padding: 2px;
+
+}
+
+.wrapper .title{
+    line-height: 80px;
+    background: rgb(64, 99, 255);
+    padding-left: 130PX;
+    border-radius: 4px 4px 15px 15px;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+.wrapper form{
+    padding: 25px 20px 25px 20px;
+}
+
+.wrapper form .row{
+    height: 45px;
+    /* background: red; */
+    margin-bottom: 15px;
+    position: relative;
+}
+.wrapper form .row input{
+    height: 100%;
+    width: 100%;
+    padding-left: 60px;
+    outline: none;
+    border: 1px solid blue;
+    border-radius: 4px;
+    font-size: 15px;
+
+}
+.wrapper form .row i{
+    position: absolute;
+     width: 47px;
+     height: 100%;
+     color: white;
+     font-size: 18px;
+     background: rgb(0, 0, 0);
+     border:  2px solid rgb(2, 57, 255);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border-radius: 4px;
+
+
+}
+
+.wrapper form .button input {
+    padding-left: 0;
+    background: rgb(0, 0, 0);
+    border:  1px solid black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-size: 21px;
+    cursor: pointer;
+    border-radius: 0px 15px 0  15px ;
+}
+.wrapper form .button input:hover{
+    background: blue;
+    
+}
+.wrapper form .pass{
+    margin: -8px 0 20px 0;
+
+}
+.wrapper form .pass a{
+    color: blue;
+    font-size: 17px;
+    text-decoration: none;
+}
+.wrapper form .pass a:hover{
+    text-decoration: underline;
+}
+
+.wrapper form .sign-up{
+   text-align: center;
+   padding-top: 8px;
+
+}
+.wrapper form .sign-up a{
+    color: rgb(0, 50, 249);
+    font-size: 17px;
+    text-decoration: none;
+}
+.wrapper form .sign-up a:hover{
+    text-decoration: underline;
+}

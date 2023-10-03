@@ -79,8 +79,8 @@ main {
 
 #main-content {
   min-height: 56vh;
-  /* background-image: url(tianjin-g72f48308f_1280.jpg); */
-  background:linear-gradient(0deg , rgb(255, 255, 255) ,rgb(87, 255, 101));
+  background-image: url(../../tianjin-g72f48308f_1280.jpg);
+  /* background:linear-gradient(0deg , rgb(255, 255, 255) ,rgb(87, 255, 101)); */
   background-repeat: no-repeat;
   background-size: 100%;
   display: flex;
